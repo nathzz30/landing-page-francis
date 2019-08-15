@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { css, jsx } from "@emotion/core";
+import { jsx } from "@emotion/core";
 import "./Header.css";
 const Header = ({ socialIcons, logo }) => {
   return (
