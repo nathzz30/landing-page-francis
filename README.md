@@ -61,6 +61,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* How to use npm scrits, and the terminal.
+* Coding in React, CSS.
+* Want to work in Frontend.
