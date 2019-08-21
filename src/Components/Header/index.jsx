@@ -18,7 +18,7 @@ const Header = ({ socialIcons, logo }) => {
         href="https://html5up.net/uploads/demos/editorial/index.html"
         className="logo"
       >
-        {logo}
+        <span className="blackie">Editorial</span> by {logo}
       </a>
       <div className="social">
         {socialIcons.map((icon, index) => (

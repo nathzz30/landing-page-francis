@@ -12,7 +12,7 @@ const App = () => {
   ];
   return (
     <div className="App">
-      <Header logo="Editorial by HTML5 UP" socialIcons={socialIcons} />
+      <Header logo="HTML5 UP" socialIcons={socialIcons} />
     </div>
   );
 };
