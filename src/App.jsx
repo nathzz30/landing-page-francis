@@ -8,7 +8,7 @@ const App = () => {
     { iconClass: 'fab fa-facebook-f', social: 'Link to Facebook' },
     { iconClass: 'fab fa-snapchat-ghost', social: 'Link to Snapchat' },
     { iconClass: 'fab fa-instagram', social: 'Link to Instagram' },
-    { iiconClass: 'fab fa-medium-m', social: 'Link to Medium' }
+    { iconClass: 'fab fa-medium-m', social: 'Link to Medium' }
   ];
   return (
     <div className="App">
