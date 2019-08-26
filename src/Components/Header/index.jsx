@@ -25,11 +25,11 @@ const Header = ({ socialIcons, logo }) => {
           <a
             href="https://html5up.net/uploads/demos/editorial/index.html"
             key={`${index + 1}A`}
-            className={icon.icon}
+            className={icon.iconClass}
             aria-label={icon.social}
           >
             {' '}
-            <span className="reader">{nameSocialMedia(icon.icon)}</span>
+            <span className="reader">{nameSocialMedia(icon.social)}</span>
           </a>
         ))}
       </div>
