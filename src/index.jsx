@@ -3,4 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-ReactDOM.render(<App />, document.getElementById('app'));
+if (process.env.NODE_ENV !== 'production') {
+  import('react-axe').then(axe => {
+    axe.default(React, ReactDOM, 1000);
+    ReactDOM.render(<App />, document.getElementById('app'));
+  });
+} else {
+  ReactDOM.render(<App />, document.getElementById('app'));
+}

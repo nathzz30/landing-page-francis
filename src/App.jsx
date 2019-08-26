@@ -4,11 +4,11 @@ import Header from './Components/Header';
 
 const App = () => {
   const socialIcons = [
-    'fab fa-twitter',
-    'fab fa-facebook-f',
-    'fab fa-snapchat-ghost',
-    'fab fa-instagram',
-    'fab fa-medium-m'
+    { iconClass: 'fab fa-twitter', social: 'Link to Twitter' },
+    { iconClass: 'fab fa-facebook-f', social: 'Link to Facebook' },
+    { iconClass: 'fab fa-snapchat-ghost', social: 'Link to Snapchat' },
+    { iconClass: 'fab fa-instagram', social: 'Link to Instagram' },
+    { iiconClass: 'fab fa-medium-m', social: 'Link to Medium' }
   ];
   return (
     <div className="App">

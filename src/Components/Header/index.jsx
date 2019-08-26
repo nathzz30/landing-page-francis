@@ -3,10 +3,6 @@ import PropTypes from 'prop-types';
 import './Header.css';
 
 const Header = ({ socialIcons, logo }) => {
-  function nameSocialMedia(str) {
-    const nIcon = str;
-    return nIcon.substring(7, str.lenght);
-  }
   return (
     <div className="header">
       <link
@@ -25,10 +21,11 @@ const Header = ({ socialIcons, logo }) => {
           <a
             href="https://html5up.net/uploads/demos/editorial/index.html"
             key={`${index + 1}A`}
-            className={icon}
+            className={icon.iconClass}
+            aria-label={icon.social}
           >
             {' '}
-            <span className="reader">{nameSocialMedia(icon)}</span>
+            <span className="reader">{icon.social}</span>
           </a>
         ))}
       </div>
