@@ -3,10 +3,6 @@ import PropTypes from 'prop-types';
 import './Header.css';
 
 const Header = ({ socialIcons, logo }) => {
-  function nameSocialMedia(str) {
-    const nIcon = str;
-    return nIcon.substring(7, str.lenght);
-  }
   return (
     <div className="header">
       <link
@@ -29,7 +25,7 @@ const Header = ({ socialIcons, logo }) => {
             aria-label={icon.social}
           >
             {' '}
-            <span className="reader">{nameSocialMedia(icon.social)}</span>
+            <span className="reader">{icon.social}</span>
           </a>
         ))}
       </div>
