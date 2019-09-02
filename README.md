@@ -39,7 +39,7 @@ npm run build
 * [NPM](https://www.npmjs.com/) - Dependency Management
 * [Eslint](https://eslint.org/) - Javascript Linter
 * [Prettier](https://prettier.io/) - Code Formatter
-* [SaSS](https://sass-lang.com/) - CSS Preprocessor
+* [Emotion](https://emotion.sh/docs/introduction/) - CSS Library
 
 ## Contributing
 
