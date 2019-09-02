@@ -1,10 +1,11 @@
-import React from 'react';
+/** @jsx jsx */
+import { css, jsx } from '@emotion/core';
 import PropTypes from 'prop-types';
-import './Header.css';
+import * as styles from './Header';
 
 const Header = ({ socialIcons, logo }) => {
   return (
-    <div className="header">
+    <div css={styles.header}>
       <link
         rel="stylesheet"
         href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
@@ -12,11 +13,11 @@ const Header = ({ socialIcons, logo }) => {
 
       <a
         href="https://html5up.net/uploads/demos/editorial/index.html"
-        className="logo"
+        css={styles.logo}
       >
-        <span className="blackie">Editorial</span> by {logo}
+        <span>Editorial</span> by {logo}
       </a>
-      <div className="social">
+      <div css={styles.social}>
         {socialIcons.map((icon, index) => (
           <a
             href="https://html5up.net/uploads/demos/editorial/index.html"
@@ -25,11 +26,11 @@ const Header = ({ socialIcons, logo }) => {
             aria-label={icon.social}
           >
             {' '}
-            <span className="reader">{icon.social}</span>
+            <span css={styles.reader}>{icon.social}</span>
           </a>
         ))}
       </div>
-      <hr className="line" />
+      <hr css={styles.line} />
     </div>
   );
 };
